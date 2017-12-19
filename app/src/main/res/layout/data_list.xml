@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBox"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_weight="2"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:layout_weight="3"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/title_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="judul lagu"
+            android:layout_weight="1.2"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Singer/Musician"
+            android:layout_weight="2"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:layout_weight="3"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/musician_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nama musisi"
+            android:layout_weight="1.2"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version"
+            android:layout_weight="2"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" : "
+            android:layout_weight="3"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/version_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="versi lagu"
+            android:layout_weight="1.2"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>

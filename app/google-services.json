@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070101376642",
+    "firebase_url": "https://tabchordguitar.firebaseio.com",
+    "project_id": "tabchordguitar",
+    "storage_bucket": "tabchordguitar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070101376642:android:fbca9626f1c390a3",
+        "android_client_info": {
+          "package_name": "com.example.adila.songringguitarchordtabvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070101376642-3cmd8eckadh5knranbn6tf9d61ahqk7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adila.songringguitarchordtabvideo",
+            "certificate_hash": "ffd8375042b2a9b4242b099f76b3d0dab89a70b4"
+          }
+        },
+        {
+          "client_id": "1070101376642-vdbvk47o57mn87ou8s29eo60g05js7c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCidE7gwy1I7zF-Sk2cwOyx6iWaVLZW0Gw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070101376642-vdbvk47o57mn87ou8s29eo60g05js7c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
